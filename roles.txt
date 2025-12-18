@@ -1,0 +1,12 @@
+roles = cliente y operador
+
+priodidad: alta, media y baja
+
+instalacion de Tailwindo:
+npx create-next-app@latest frontend --typescript
+  clear
+  cd .\frontend\
+  clear
+  npm install -D tailwindcss postcss autoprefixer
+  npm install -D tailwindcss@3.4.1 postcss@8.4.35 autoprefixer@10.4.19
+  npx tailwindcss init -p
